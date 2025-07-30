@@ -55,4 +55,8 @@ jobs:
           git push --force origin pages
 
         env:
+           REPO_URL: "yutian81/FYUHF.github.io"  # 改为你自己的仓库  
+           REPO_URL: "yutian81/.github.io"  # 改为你自己的仓库  
+           BUILD_PATH: ".vitepress/dist"  # 构建输出路径，不要改  
+           CUSTOM_DOMAIN: "dfdghft.ddns-ip.net"  # 改为你自己的自定义域名
           CI: true
